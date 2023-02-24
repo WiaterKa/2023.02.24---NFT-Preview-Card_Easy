@@ -1,0 +1,112 @@
+/*font-family: 'Outfit', sans-serif;*/
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: hsl(216, 50%, 16%);
+  width: 350px;
+  height: 600px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 20px 20px;
+  padding: 25px;
+}
+
+.img_1 {
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+/* MAIN TEXT SECTION */
+
+.container__txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 0;
+}
+
+p {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+
+.container__txt_p {
+  padding: 10px 0px;
+}
+
+/* TEXT SECTION WITH TWO SVG ELEMENTS */
+
+.container__txt__details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+.container__txt__details_svgbox {
+  display: flex;
+  flex-direction: row;
+}
+
+.container__txt__details__p1 {
+  color: hsl(178, 100%, 50%);
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.container__txt__details__p2 {
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+hr {
+  color: hsl(215, 32%, 27%);
+}
+
+/* TEXT SECTION CONCERNING CREATOR */
+
+.container__txt__creator {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.img_2 {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: solid 1px white;
+  margin-right: 10px;
+}
+
+.container__txt__creator_sp {
+  color: white;
+}
+
+/* MEDIA QUERIES */
+
